@@ -15,6 +15,6 @@ class Portfolio < ApplicationRecord
     end
 end
 
-if self.main_image == nil
-self.main_image = "http://placehold.it/600x400"
-end
+# if self.main_image == nil
+# self.main_image = "http://placehold.it/600x400"
+# end
