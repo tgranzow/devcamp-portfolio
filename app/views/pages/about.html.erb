@@ -1,5 +1,5 @@
 <div class="app-card-container">
-    <div class="card">
+    <div class="card test">
         <h1>About Me</h1>
 
         <hr>
@@ -7,23 +7,22 @@
         <div class="row">
          <div class="col-md-4">
            <%= image_tag "headshot.jpg", width: 300, alt: "profile image", class: 'profile-img' %>
-          <div class="skills">
-            <% @skills.each do |skill| %>
+          <!-- <div class="skills">
+            <%# @skills.each do |skill| %>
               <div class="skill">
-                <h4><%= skill.title %></h4>
+                <h4><%#= skill.title %></h4>
                 <div class="progress">
                   <div
                     class="progress-bar progress-bar-striped bg-warning"
                     role="progressbar"
-                    aria-valuenow="<%= skill.percent_utilized %>"
+                    aria-valuenow="<%#= skill.percent_utilized %>"
                     aria-valuemax="100"
-                    style="width: <%= skill.percent_utilized %>%"
+                    style="width: <%#= skill.percent_utilized %>%"
                   ></div>
                 </div>
-              </div>
-            <% end %>
+              </div> -->
+            <%# end %>
           </div>
-         </div>
             <div class="col-md-8">
                 <p>With a lifetime background of music and art, I find that my work as a web developer allows me to explore and incorporate many aspects from all of these areas into one cohesive art-form.  There is something really beautiful about harnessing the ability to take a simple idea or problem and being able to build an entirely dynamic solution.</p>
 
