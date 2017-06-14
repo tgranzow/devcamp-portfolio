@@ -20,5 +20,8 @@ module DevcampPortfolio
   class Application < Rails::Application
       config.eager_load_paths << "#{Rails.root}/lib"
       config.secret_key_base = ENV["SECRET_KEY_BASE"]
+
+    #   config.assets.enabled = true
+    #   config.assets.path << Rails.root.join('/app/assets/fonts')
   end
 end

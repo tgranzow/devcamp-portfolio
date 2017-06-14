@@ -1,9 +1,15 @@
 <div class="inner cover">
-    <h1 class="cover-heading">Welcome!</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages.</p>
-    <p class="lead">
-        <!-- <a href="/about-me" class="btn btn-lg btn-secondary">Learn more</a> -->
-        <!-- <a href="<%= about_me_path %>" class="btn btn-lg btn-secondary">Learn more</a> -->
-        <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary" %>
-    </p>
+    <div class="welcome-box">
+        <div class="welcome-statement">
+            <h1 class="cover-heading">Welcome!</h1>
+            <p class="lead">I am a Wisconsin-based Full Stack Developer with a love of solving complex problems and a passion for finding the most elegant solutions for both Front-End and Back-End development. </p>
+            <p class="lead">
+                <p>To see more examples of my front-end development, please click below!</p>
+        </div>
+            <%= link_to "Front-End Development", "http://front.tgranzow.com", class: "btn btn-lg btn-secondary homepage-buttons" %>
+            <!-- <a href="/about-me" class="btn btn-lg btn-secondary">Learn more</a> -->
+            <!-- <a href="<%= about_me_path %>" class="btn btn-lg btn-secondary">Learn more</a> -->
+            <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary homepage-buttons" %>
+        </p>
+    </div>
 </div>
