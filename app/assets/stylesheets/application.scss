@@ -256,16 +256,22 @@ h6, .h6 {
     color: #5F5F5B;;
 }
 
-.tech-news {
-    color: #5F5F5B;;
-    margin: 20px;
+.cover-heading {
+    font-family: "Montserrat";
+    color: #5F5F5B;
 }
+
+
 .tech-news a {
     color: green;
 }
 
 .tech-news > .card {
     padding: 30px;
+}
+
+.tech-news {
+    color: #5F5F5B;
 }
 
 // About me styles
