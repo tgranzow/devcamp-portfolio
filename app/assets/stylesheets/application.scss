@@ -95,6 +95,10 @@ h6, .h6 {
 
 .masthead {
   margin-bottom: 2rem;
+  background-color: rgba(249, 249, 249, .8);
+  padding-bottom: 15px;
+  padding-top: 0px;
+  border-radius: 12px;
 }
 
 .masthead-brand {
@@ -152,6 +156,7 @@ h6, .h6 {
 
 .mastfoot {
   color: #5F5F5B;
+
 }
 
 
@@ -199,7 +204,7 @@ h6, .h6 {
 }
 
 .welcome-box {
-    background-color: rgba(249, 249, 249, .4);
+    background-color: rgba(249, 249, 249, .8);
     padding: 15px;
     border-radius: 12px;
 }
@@ -213,7 +218,7 @@ h6, .h6 {
     font-family: "Montserrat";
     color: #5F5F5B;
     background-color: rgba(249, 249, 249, .6);
-    border: solid 1px #EAEAEA;
+    border: solid 1px rgba(95, 95, 91, .4);
 }
 
 /*
@@ -258,7 +263,7 @@ h6, .h6 {
     -webkit-transform: translateX(-50%) translateY(-50%);
 }
 .app-footer {
-    color: #5F5F5B;;
+    color: rgba(249, 249, 249, .8);
 }
 
 .cover-heading {
@@ -310,16 +315,19 @@ h6, .h6 {
 .test {
     margin-top: 10%;
     margin-bottom: 10%;
-    background: url(23.jpg) no-repeat center center fixed;
+    background: url(22.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    border-radius: 12px;
 }
 .test button {
     font-family: "Montserrat";
     font-weight: bold;
     color: #5F5F5B;
+    background-color: rgba(249, 249, 249, .8);
+    font-size: 1.2em;
 }
 .test button:hover {
     background-color: #5F5F5B;
@@ -327,15 +335,16 @@ h6, .h6 {
 }
 
 .profile-img {
-    border: solid 10px #f8f8f8;
+    border: solid 10px rgba(249, 249, 249, .8);
     border-radius: 12px;
 }
 
 .about-blurb {
-    background-color: #f8f8f8;
+    background-color: rgba(249, 249, 249, .8);
     padding: 13px;
     border-radius: 12px;
     font-family: "Montserrat";
+    font-size: 1.2em;
 }
 
 .education-button {
@@ -347,12 +356,13 @@ h6, .h6 {
 
 // Contact me styles
 .contact-card {
-    background: url(23.jpg) no-repeat center center fixed;
+    background: url(22.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: "Montserrat";
+    border-radius: 12px;
 }
 
 .contact-card-info {
@@ -360,7 +370,8 @@ h6, .h6 {
     text-align: center;
 }
 .contact-card-text {
-    background-color: #f8f8f8;
+    font-family: "Montserrat";
+    background-color: rgba(249, 249, 249, .8);
     color: #5F5F5B;
     padding: 13px;
     border-radius: 12px;
