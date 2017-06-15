@@ -1,6 +1,10 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 @import "gritter";
+@font-face {
+    font-family: "Oh Wonder Regular";
+    src: url('/assets/Ohwonder-Regular.otf');
+}
 
 // @font-face {
 //     font-family: "Oh Wonder Regular";
@@ -44,7 +48,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Monterrat', sans-serif;
 }
 body {
   color: #fff;
@@ -199,8 +203,9 @@ h6, .h6 {
 *Home styles
 */
 .nav-name {
-    font-family: "Montserrat";
+    font-family: "Oh Wonder Regular";
     color: #5F5F5B;
+    font-size: 3em;
 }
 
 .welcome-box {
@@ -267,7 +272,7 @@ h6, .h6 {
 }
 
 .cover-heading {
-    font-family: "Montserrat";
+    font-family: "Oh Wonder Regular";
     color: #5F5F5B;
 }
 
@@ -285,6 +290,14 @@ h6, .h6 {
 }
 
 // About me styles
+// .about-background {
+//     background: url(plain-purple.jpg) no-repeat center center fixed;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+// }
+
 .app-card-container {
     color: #5F5F5B;
     text-align: left;
@@ -313,8 +326,6 @@ h6, .h6 {
     margin-bottom: 5px;
     }
 .test {
-    margin-top: 10%;
-    margin-bottom: 10%;
     background: url(22.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -346,6 +357,12 @@ h6, .h6 {
     font-family: "Montserrat";
     font-size: 1.2em;
 }
+.test h1 {
+    font-family: "Oh Wonder Regular";
+    font-size: 4em;
+    margin: -15px;
+    padding: 0;
+}
 
 .education-button {
     background-color: #f8f8f8;
@@ -376,4 +393,12 @@ h6, .h6 {
     padding: 13px;
     border-radius: 12px;
     margin-bottom: 20px;
+}
+
+.contact-card h1 {
+    font-family: "Oh Wonder Regular";
+    font-size: 4em;
+}
+.contact-card h3 {
+    font-family: "Montserrat";
 }
