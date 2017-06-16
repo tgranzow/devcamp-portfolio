@@ -6,18 +6,6 @@
     src: url('/assets/Ohwonder-Regular.otf');
 }
 
-// @font-face {
-//     font-family: "Oh Wonder Regular";
-//     src: url('/assets/Ohwonder-Regular.otf');
-// }
-// @font-face {
-//     font-family: "Oh Wonder Sans Regular";
-//     src: url('/assets/OhwonderSans-Regular.otf');
-// }
-// @font-face {
-//     font-family: "Oh Wonder Upright Regular";
-//     src: url('/assets/OhwonderUpright-Regular.otf');
-// }
 /*
  * Globals
  */
@@ -200,10 +188,6 @@ h6, .h6 {
 *Home styles
 */
 
-// .home-background {
-//     min-width: 500px;
-//     min-height: 500px;
-// }
 .nav-name {
     font-family: "Oh Wonder Regular";
     color: #5F5F5B;
@@ -310,7 +294,6 @@ h6, .h6 {
     color: #5F5F5B;
     text-align: left;
     font-family: "Montserrat";
-    // font-family: "Oh Wonder Regular";
 }
 .card-block {
     margin-top: 5px;
