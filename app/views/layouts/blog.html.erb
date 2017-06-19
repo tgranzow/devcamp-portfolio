@@ -16,26 +16,33 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
+
 <body>
+    <div class="site-wrapper">
 
-    <%= render 'shared/blog_nav' %>
+      <div class="site-wrapper-inner">
 
-    <%= render 'shared/blog_masthead' %>
+        <div class="cover-container">
 
+            <%= render "shared/application_nav" %>
+            <div class="container">
+                <%= render "shared/blog_masthead" %>
 
-    <div class="container">
+                <div class="row blog-row">
 
-        <div class="row">
+                    <%= yield %>
+                    <%= render 'shared/blog_sidebar' %>
+                </div>
 
-            <%= yield %>
-            <%= render 'shared/blog_sidebar' %>
+            <%= render "shared/application_footer" %>
 
+            <%= alerts %>
         </div>
 
-        <%= render 'shared/blog_footer' %>
-
-        <%= alerts %>
+      </div>
 
     </div>
 </body>
+
+
 </html>
