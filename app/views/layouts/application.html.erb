@@ -33,13 +33,17 @@
               )
               %>
               <%= render "shared/application_nav" %>
+              </div>
+                  <div class="container">
 
-              <%= yield %>
+                      <%= yield %>
+                  </div>
+                  <div class="footer-container">
+                      <%= render "shared/application_footer" %>
 
-              <%= render "shared/application_footer" %>
+                      <%= alerts %>
+                  </div>
 
-              <%= alerts %>
-          </div>
 
         </div>
 
