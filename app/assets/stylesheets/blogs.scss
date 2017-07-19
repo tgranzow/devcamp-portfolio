@@ -61,10 +61,13 @@ h6, .h6 {
 }
 
 .masthead {
-  background-color: rgba(249, 249, 249, .8);
-  padding-bottom: 15px;
-  padding-top: 0px;
-  border-radius: 12px;
+    max-width: 88%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: rgba(249, 249, 249, .8);
+    padding-bottom: 15px;
+    padding-top: 0px;
+    border-radius: 12px;
 }
 
 .masthead-brand {
@@ -92,41 +95,11 @@ h6, .h6 {
   border-bottom-color: #585855;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
+.masthead-brand {
     float: left;
-  }
-  .nav-masthead {
+}
+.nav-masthead {
     float: right;
-  }
-}
-
-/*
- * Affix and center
- */
-
-@media (min-width: 40em) {
-    /* Pull out the header and footer */
-    .masthead {
-      top: 0;
-    }
-
-    /* Start the vertical centering */
-    .site-wrapper-inner {
-      vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-}
-
-@media (min-width: 62em) {
-  .masthead {
-    width: 65rem;
-    display: inline-block;
-  }
 }
 
 .app-nav span {
